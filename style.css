@@ -1,0 +1,49 @@
+
+/*
+main {
+    background-image: url(/images/bg-intro-desktop.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*/
+
+:root{
+    --vddRed: hsl(0, 100%, 74%);
+    --vddGreen: hsl(154, 59%, 51%);
+    --vddPurple: hsl(248, 32%, 49%);
+    --darkBlue: hsl(249, 10%, 26%);
+    --grayishBlue: hsl(246, 25%, 77%);
+    font-size: 16px;
+}
+
+body {
+    background-image: url(/images/bg-intro-desktop.png);
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--vddRed);
+}
+
+@media (max-width: 375px) {
+    body {
+        background-image: url(/images/bg-intro-mobile.png);
+    }
+}
+
+.left-container {
+    color: white;
+}
+
+.text-banner {
+    background-color: var(--vddPurple);
+    color: white;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
